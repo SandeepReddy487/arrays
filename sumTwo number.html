@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="first">
+    <input type="text" id="second">
+    <input type="text" id="threed" >
+    <input type="submit" value="submit" onclick="myfunction()">
+    <script>
+        function myfunction(){
+        var a = parseInt(document.getElementById('first').value);
+        var b =parseInt(document.getElementById('second').value);
+        var c = a+b;
+document.getElementById('threed').value = c;
+        }
+    </script>
+</body>
+</html>
